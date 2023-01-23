@@ -45,4 +45,4 @@ In next version additional options will be added:
 
 @hide_option=false
 
-You can deside if you want to add hide/show messages to final text file. 
+You can deside if you want to add hide/show messages to final text file.  
