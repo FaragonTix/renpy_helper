@@ -2,6 +2,7 @@
 Small program to transform text to renpy visual novell format
 Requaire config file config.txt and start.txt with your text.
 
+This program will also delete spaces in the start and in the end of line. Empty lines will be also deleted.
 
 Example:
 
