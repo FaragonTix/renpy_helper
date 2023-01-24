@@ -33,7 +33,7 @@ so your config.txt file:
 
 @notag=o 
 
-Sam:;s;samsprite
+Sam:;samsprite;s
 
 If you want to use no tag lines without any letter just delete @notag option from config file.
 
