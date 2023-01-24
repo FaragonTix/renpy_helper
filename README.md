@@ -38,7 +38,7 @@ Sam:;s;samsprite
 If you want to use no tag lines without any letter just delete @notag option from config file.
 
 
-In next version additional options will be added:
+Additional options was be added:
 
 
 @show_option=false
