@@ -14,7 +14,7 @@ Sam: I love this morning...
 I think, this wasn't true.
 
 
-You want to transform this text in end.txt file:
+You want to transform this text (end.txt):
 
 
 hide samsprite
