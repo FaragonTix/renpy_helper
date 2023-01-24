@@ -19,7 +19,7 @@ I think, this wasn't true.
 
 ...............................................
 
-You want to transform this text (end.txt):
+You want achieve this text (end.txt):
 
 
 hide samsprite
