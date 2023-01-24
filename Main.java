@@ -12,15 +12,34 @@ public class Main {
         String lines;
         int p = 0;
         String defaultIdentifier="";
+        boolean hide_option=true;
+        boolean show_option=true;
+        
 
         HashMap<String, String[]> config = new HashMap<>();
 
         try {
-            BufferedReader configFile = new BufferedReader(new FileReader("config.txt"));
+            BufferedReader configFile = new BufferedReader(new InputStreamReader(new FileInputStream("config.txt"), "Cp1251"));
             
             while ((line = configFile.readLine()) != null) {
             	if (line.startsWith("@notag=")) {
                     defaultIdentifier = line.substring(7);
+                    continue;
+                }
+            	if (line.startsWith("@show_option=")) {
+            		String[] parts = line.split("=");
+					String option_value = parts[1];
+					if (option_value.equalsIgnoreCase("false")) {
+						show_option=false;
+					}
+                    continue;
+                }
+            	if (line.startsWith("@hide_option=")) {
+            		String[] parts = line.split("=");
+					String option_value = parts[1];
+					if (option_value.equalsIgnoreCase("false")) {
+						hide_option=false;
+					}
                     continue;
                 }
             	try {
@@ -55,14 +74,16 @@ public class Main {
                 for (String keyword : config.keySet()) {
                     if (line.startsWith(keyword)) {
                         String[] commands = config.get(keyword);
-                        end.write(commands[0] + "\n");
-                        end.write(commands[1] + "\n");
+                        if (hide_option==true) {
+                        end.write(commands[0] + "\n");}
+                        if (show_option==true) {
+                        end.write(commands[1] + "\n");}
                         lineb = commands[2] + "\"";
                         line = line.substring(keyword.length(), line.length());
                         p = 1;
                         lineb = lineb + line.trim() + a;
                         break;
-                    }
+                    } 
                 }
                 if (p != 1) {
                 	lineb = defaultIdentifier + "\"" + line + a;
