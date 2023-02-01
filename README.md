@@ -51,3 +51,7 @@ Additional options was added:
 @hide_option=false
 
 You can deside if you want to add hide/show messages to final text file.  
+
+=
+=
+If You have any problems with this software, try to install JDK 19
