@@ -52,6 +52,8 @@ Additional options was added:
 
 You can deside if you want to add hide/show messages to final text file.  
 
+@encoding= tag allows to change encoding of input and output. As default Cp1251 was used. 
+
 =
 =
 If You have any problems with this software, try to install JDK 19
