@@ -10,7 +10,7 @@ Example:
 =
 
 You have some text in start.txt file such as:
---
+--------
 
 Sam: I love this morning... 
 
