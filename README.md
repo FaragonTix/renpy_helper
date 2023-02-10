@@ -7,8 +7,7 @@ This program will also delete spaces in the start and in the end of line. Empty 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Example:
-
-...............................................
+=
 
 You have some text in start.txt file such as:
 
@@ -44,7 +43,7 @@ If you want to use no tag lines without any letter just delete @notag option fro
 ...............................................
 
 Additional options was added:
-
+=
 
 @show_option=false
 
