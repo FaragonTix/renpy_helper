@@ -4,7 +4,7 @@ Requaire config file config.txt and start.txt with your text.
 
 This program will also delete spaces in the start and in the end of line. Empty lines will be also deleted.
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 
 Example:
 =
@@ -16,7 +16,7 @@ Sam: I love this morning...
 
 I think, this wasn't true.
 
-...............................................
+
 
 You want achieve this text (end.txt):
 --
@@ -29,7 +29,7 @@ s"I love this morning..."
 
 o"I think, this wasn't true."
 
-...............................................
+
 
 so your config.txt file:
 --
@@ -40,7 +40,7 @@ Sam:;samsprite;s
 
 If you want to use no tag lines without any letter just delete @notag option from config file.
 
-...............................................
+
 
 Additional options was added:
 =
