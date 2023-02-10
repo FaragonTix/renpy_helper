@@ -32,7 +32,7 @@ o"I think, this wasn't true."
 ...............................................
 
 so your config.txt file:
-
+---
 
 @notag=o 
 
@@ -55,6 +55,6 @@ You can deside if you want to add hide/show messages to final text file.
 
 So, if you don't want to use hide/show commands for specific character you can use none instead of second argument: Sam:;none;s
 
-=
+Specifications:
 =
 If You have any problems with this software, try to install JDK 19
