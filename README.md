@@ -10,7 +10,7 @@ Example:
 =
 
 You have some text in start.txt file such as:
-
+--
 
 Sam: I love this morning... 
 
@@ -19,7 +19,7 @@ I think, this wasn't true.
 ...............................................
 
 You want achieve this text (end.txt):
-
+--
 
 hide samsprite
 
@@ -32,7 +32,7 @@ o"I think, this wasn't true."
 ...............................................
 
 so your config.txt file:
----
+--
 
 @notag=o 
 
